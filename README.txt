@@ -1,6 +1,8 @@
 # Tic Tac Toe Game : Ilay friedman
 
 #General architecture of the application
+
+
 The app includes 4 components:
 1 - API :  a generic request to the API
 2 - Login : Includes the login page
