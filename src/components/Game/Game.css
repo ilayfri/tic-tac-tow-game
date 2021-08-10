@@ -1,0 +1,79 @@
+.cell {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 30px;
+  background: rgb(89, 138, 212);
+  cursor: pointer;
+  font-size: 45px;
+  border-radius: 7px;
+}
+
+.cell:hover {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 30px;
+  background: rgb(142, 177, 230);
+  width: 30px;
+  cursor: pointer;
+  font-size: 45px;
+}
+
+.basicSpans {
+  float: left;
+  display: inline;
+  padding: 15px;
+  
+}
+.twoSpans{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.56);
+background-color: #e0e0e0;
+}
+
+.rightPanel {
+  height: 200px;
+  width: 300px;
+}
+
+.infoUpdate {
+  height: 120px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.infoUpdate>*{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.gameDiv {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.boardStyle{
+    width: 100%;
+}
+
+.game-buttons{
+      width: 160px;
+  height: 32px;
+  background: #256386;
+  border: 1px solid #256386;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  cursor: pointer;
+  margin: 10px
+}
+
+.game-buttons:hover {
+  background-color: #3f7899;
+}
+
+.game-buttonsn:active {
+  background-color: #256386;
+}
